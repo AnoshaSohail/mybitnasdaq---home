@@ -1,0 +1,677 @@
+:root {
+  --font-color: #081131;
+  --font-satoshi: "Satoshi", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar */
+.navbar {
+  height: 4.688rem;
+}
+.list {
+  font-family: var(--font-satoshi);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--font-color);
+}
+.regbtn {
+  padding: 12px;
+  border: none;
+  background: #faa71a;
+  border-radius: 4px;
+  color: #ffffff;
+
+  text-align: center;
+}
+.login,
+.navusd {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+.navusd {
+  margin-top: 0.8rem;
+}
+/* .bannersection{
+    overflow:hidden;
+} */
+/* banner section */
+.bannersection h2 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+.bannersection p {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #718096;
+}
+.bottomleft input,
+.bottomleft button {
+  background-color: #ffffff;
+  margin-right: 0.75rem;
+  padding: 17px 14px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+}
+.bannericons {
+  background-color: #ffffff;
+
+  padding: 17px 14px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  margin-right: 0.75rem;
+}
+.bannersection {
+  height: 31.938rem;
+  background: rgb(250, 250, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 250, 250, 1) 55%,
+    rgba(255, 165, 0, 0.18820028011204482) 70%,
+    rgba(250, 250, 250, 1) 90%
+  );
+  position: relative;
+  overflow: hidden;
+}
+.circle1 {
+  position: absolute;
+  width: 242px;
+  height: 242px;
+  left: -128px;
+  top: 210px;
+  border-radius: 50%;
+  background: #f6f6f6;
+}
+.circle2 {
+  position: absolute;
+  width: 242px;
+  height: 242px;
+  right: -120px;
+  top: 20px;
+  border-radius: 50%;
+  background: #f6f6f6;
+}
+.bannerimg {
+  position: absolute;
+  right: 20.9rem;
+}
+.currencycard {
+  position: absolute;
+  padding: 23px 25px;
+  width: 300px;
+  height: 135px;
+  top: 63%;
+
+  /* left: 242px;
+top: 518px; */
+
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+}
+.c-txt {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+}
+.c-txt div {
+  color: #718096;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.card1 {
+  left: 14%;
+}
+.card2 {
+  left: 32.5%;
+}
+.card3 {
+  left: 51%;
+}
+.card4 {
+  left: 69.45%;
+}
+.curriencies {
+  position: relative;
+  top: -100px;
+}
+.impnotice {
+  position: relative;
+  width: 77.275rem;
+  height: 3rem;
+  left: 237px;
+  top: 206px;
+
+  background: rgba(255, 165, 0, 0.04);
+}
+.noticeleft p {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.noticeright span {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+/* .fdiv{
+    position: absolute;
+}
+.fdiv svg{
+    position: absolute;
+}
+.fimg2{
+    top: 75.25px;
+    left: -227px;
+}
+.fimg3{
+    top: 3px;
+    left: 50%;
+}
+.fimg4{
+    left: 60%;
+}
+.fimg1{
+    left: -556px;
+} */
+.featureimgs {
+  position: relative;
+  margin-top: 8rem;
+}
+.fcard {
+  position: absolute;
+  left: 13.25%;
+  object-fit: cover;
+  font-size: 0;
+}
+.fcard img {
+  margin-right: -36px;
+}
+.othersect {
+  position: relative;
+  margin-top: 24rem;
+}
+.tradingbtns button {
+  border: none;
+}
+.tradingbtns {
+  width: 231px;
+  height: 50px;
+  background: #fafafa;
+  border-radius: 6px;
+}
+.tradingbtn {
+  font-family: "Satoshi";
+  background: #ffffff;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #324054;
+}
+.inobtn {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  background-color: inherit;
+  color: #cacaca;
+}
+.morebtn {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #718096;
+}
+.newstitle h3 {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  /* identical to box height */
+
+  color: #081131;
+}
+.news {
+  flex: 1;
+}
+.trading {
+  flex: 2;
+}
+.coin-name {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  flex: 2;
+}
+.coin-amount {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  flex: 3;
+}
+.coin-percentage {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  flex: 2;
+  color: #0ecb81;
+}
+.coin-wave {
+  flex: 1;
+}
+.coin-grey {
+  font-size: 14px;
+  line-height: 18.9px;
+  color: #718096;
+}
+.heading {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 155%;
+  /* or 20px */
+
+  color: #081131;
+}
+.content {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 148.5%;
+  /* or 18px */
+
+  color: #718096;
+}
+.source {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 161%;
+  /* or 19px */
+
+  color: #081131;
+}
+.stime {
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 148.5%;
+  /* identical to box height, or 18px */
+
+  color: #718096;
+}
+.viewmore {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 148.5%;
+  /* identical to box height, or 18px */
+
+  color: #081131;
+}
+.news hr {
+  width: 563px;
+  text-align: center;
+  margin-left: 7%;
+  height: 2px;
+  color: #718096;
+}
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 1.55rem;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(250, 250, 250);
+  background: radial-gradient(
+    circle,
+    rgba(250, 250, 250, 0.7120098039215687) 0%,
+    rgba(255, 165, 0, 0.6223739495798319) 79%
+  );
+
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(235, 169, 46, 0.399);
+}
+.newsimg {
+  width: 208px;
+  height: 157px;
+  background: linear-gradient(0deg, #eeeeee, #eeeeee), url(image.png);
+  border-radius: 15px;
+}
+.newsright {
+  width: 377px;
+  margin-left: 21px;
+}
+.news {
+  position: relative;
+  left: 34px;
+}
+.explore h2 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 150%;
+  /* identical to box height, or 52px */
+
+  color: #081131;
+}
+.explore p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  color: #718096;
+}
+.mcard {
+  border: none; /* Remove the default border */
+  border-image-source: linear-gradient(
+    180deg,
+    #ffa500 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-image-slice: 1; /* Set the border image slice */
+  border-image-width: 1px; /* Set the border image width */
+  border-image-repeat: stretch; 
+  border-image-outset: 4px;
+  border-radius: 4px;
+  border-radius: 11px;
+}
+.mcimg img {
+  width: 56px;
+  height: 56px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+.mcname {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #081131;
+}
+.mcname span {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #718096;
+}
+.follow {
+  background: #ffffff;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  border: none; 
+  border-image-source: linear-gradient(180deg, #e2e5e9 90.58%, #d2d6db 100%);
+  border-image-slice: 1; 
+  border-image-width: 1px; 
+  border-image-repeat: stretch; 
+  border-image-outset: 4px;
+  border-radius: 4px;
+
+  padding: 2px;
+}
+.mcheading {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #081131;
+}
+.midleft {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #081131;
+}
+.midleft span {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.9px;
+  color: #718096;
+}
+.midcenter span,
+.midleftright span {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0ecb81;
+}
+.mctxt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #081131;
+}
+.mcard {
+  flex-basis: calc(30% - 0px);
+}
+.members {
+  position: relative;
+}
+.blurcard1 {
+  position: absolute;
+  width: 326px;
+  height: 602px;
+  background: #ffffff;
+  filter: blur(33.5px);
+  left: 1280px;
+  top: -75px;
+}
+.blurcard2 {
+  position: absolute;
+  width: 326px;
+  height: 602px;
+  background: #ffffff;
+  filter: blur(33.5px);
+  left: -76px;
+  top: -75px;
+}
+.innercards {
+  width: 266px;
+  height: 320px;
+  border: 1px solid #eaeaea;
+
+  border-radius: 18px;
+}
+.innercards:hover {
+  border: 1px solid #ffa500;
+}
+.cshead {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+.cstxt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #718096;
+}
+.bghead,
+.joinhead {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 150%;
+  color: #081131;
+}
+.bgchead {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b2b2b;
+}
+.bgctxt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #718096;
+}
+.jointxt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  color: #718096;
+}
+.tradeheading {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 145%;
+  color: #081131;
+}
+.downbox {
+  background: #ffffff;
+  border: 0.6px solid #dadada;
+  border-radius: 10px;
+  width: 451px;
+  height: 83px;
+}
+.tl2 {
+  position: relative;
+}
+.trimg2 {
+  position: absolute;
+  top: 2px;
+  left: 55%;
+  z-index: 9999;
+}
+.dthead {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #081131;
+}
+.dttxt {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #718096;
+}
+.downbox:hover {
+  background: rgba(255, 165, 0, 0.08);
+  border: 0.6px solid #ffa500;
+  .trimgs,
+  .trimg2 {
+    display: none;
+  }
+}
+.starttrading {
+  background: #fafafa;
+  height: 260px;
+}
+.top {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #081131;
+}
+.fcontent {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 99%;
+  /* or 14px */
+
+  color: #718096;
+}
+.fsub {
+  color: rgba(8, 17, 49, 1);
+}
+.hline {
+  position: relative;
+  height: 1.5px;
+  background-color: #eeeeee;
+  width: 924px;
+  left: 23%;
+}
+.copyright {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 112%;
+  /* identical to box height, or 15px */
+
+  color: #afafaf;
+}
+.bgtxtcard {
+  width: 60vh;
+}
+.topicons img,.bottomicons img{
+  margin-left: 0.6rem !important;
+  margin-right: 0.6rem !important;
+}
