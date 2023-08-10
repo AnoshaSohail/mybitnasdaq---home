@@ -129,6 +129,10 @@ top: 518px; */
   font-size: 25px;
   line-height: 150%;
 }
+.c-cards{
+  position: relative;
+    left: 40px;
+}
 .c-txt div {
   color: #718096;
   font-family: "Satoshi";
@@ -156,7 +160,7 @@ top: 518px; */
   position: relative;
   width: 78.275rem;
   height: 3rem;
-  left: 7%;
+  left: 9.6%;
   top: 206px;
 
   background: rgba(255, 165, 0, 0.04);
@@ -199,7 +203,7 @@ top: 518px; */
 }
 .fcard {
   position: absolute;
-  left: 6%;
+  left: 8.6%;
   object-fit: cover;
   font-size: 0;
 }
